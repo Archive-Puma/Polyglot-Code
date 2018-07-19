@@ -7,6 +7,10 @@ const languages = {
   },
   'java': {
     'System.out.println': new_line
+  },
+  'processing': {
+    // 'print': line,
+    'println': new_line
   }
 }
 
