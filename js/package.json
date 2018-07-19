@@ -1,0 +1,28 @@
+{
+  "name": "polyglot-code",
+  "version": "1.0.0",
+  "description": "Write console logs in any programming language",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosasdepuma/polyglot-code.git"
+  },
+  "keywords": [
+    "polyglot",
+    "anyprint",
+    "console",
+    "log"
+  ],
+  "author": "CosasDePuma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosasdepuma/polyglot-code/issues"
+  },
+  "homepage": "https://github.com/cosasdepuma/polyglot-code#readme",
+  "devDependencies": {
+    "assert": "^1.4.1"
+  }
+}
