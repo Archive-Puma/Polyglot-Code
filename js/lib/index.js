@@ -1,16 +1,21 @@
 const line = (string) => process.stdout.write(string)
-const new_line = (string) => console.log(string)
 
 const languages = {
   'python': {
-    'print': new_line,
+    'print': console.log,
   },
   'java': {
-    'System.out.println': new_line
+    'System.out.println': console.log
+  },
+  'go': {
+    'fmt': {
+      'println': console.log,
+      'printf': line
+    }
   },
   'processing': {
     // 'print': line,
-    'println': new_line
+    'println': console.log
   }
 }
 
