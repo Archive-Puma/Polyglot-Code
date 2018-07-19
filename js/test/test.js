@@ -1,4 +1,4 @@
-require('../src/index')
+require('../lib/index')
 const test = require('assert')
 
 test.doesNotThrow(() => print('Python!'))

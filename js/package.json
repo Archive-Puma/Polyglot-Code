@@ -2,7 +2,7 @@
   "name": "polyglot-code",
   "version": "1.0.0",
   "description": "Write console logs in any programming language",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test/test.js"
   },
