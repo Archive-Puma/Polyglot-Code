@@ -2,6 +2,9 @@ const line = (string) => process.stdout.write(string)
 const new_line = (string) => console.log(string)
 
 const languages = {
+  'python': {
+    'print': new_line,
+  }
 }
 
 for (let language in languages) {
