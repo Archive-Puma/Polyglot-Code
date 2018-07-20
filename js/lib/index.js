@@ -14,7 +14,7 @@ const languages = {
     }
   },
   'processing': {
-    // 'print': line,
+    'print': line,
     'println': console.log
   },
   'vb.net': {
@@ -25,6 +25,9 @@ const languages = {
   },
   'kotlin': {
     'println': console.log
+  },
+  'actionscript': {
+    'trace': console.log
   }
 }
 
