@@ -28,6 +28,9 @@ const languages = {
   },
   'actionscript': {
     'trace': console.log
+  },
+  'lua': {
+    'io.write': line
   }
 }
 
