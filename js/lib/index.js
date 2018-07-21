@@ -31,6 +31,9 @@ const languages = {
   },
   'lua': {
     'io.write': line
+  },
+  'dart': {
+    'print': console.log
   }
 }
 

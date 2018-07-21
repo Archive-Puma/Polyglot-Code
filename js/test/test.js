@@ -2,6 +2,7 @@ require('../lib/index')
 const test = require('assert')
 
 test.doesNotThrow(() => trace('ActionScript'))
+test.doesNotThrow(() => print('Dart'))
 test.doesNotThrow(() => fmt.printf('Go\n'))
 test.doesNotThrow(() => fmt.println('Go'))
 test.doesNotThrow(() => System.out.println('Java'))
