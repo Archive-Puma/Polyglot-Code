@@ -23,6 +23,10 @@ const languages = {
       'WriteLine': console.log
     }
   },
+  'haskell': {
+    'putStr': line,
+    'putStrLn': console.log
+  },
   'kotlin': {
     'println': console.log
   },
