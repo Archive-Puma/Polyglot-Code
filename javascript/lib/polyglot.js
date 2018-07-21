@@ -5,12 +5,16 @@ const languages = {
     'print': console.log,
   },
   'java': {
-    'System.out.println': console.log
+    'System': {
+      'out': {
+        'println': console.log
+      }
+    }
   },
   'go': {
     'fmt': {
-      'println': console.log,
-      'printf': line
+      'Println': console.log,
+      'Printf': line
     }
   },
   'processing': {
@@ -38,7 +42,9 @@ const languages = {
     'trace': console.log
   },
   'lua': {
-    'io.write': line
+    'io': {
+      'write': line
+    }
   },
   'dart': {
     'print': console.log
