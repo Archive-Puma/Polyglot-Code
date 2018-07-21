@@ -1,4 +1,4 @@
-require('../lib/index')
+require('../lib/polyglote-code')
 const tap = require('tap')
 
 tap.test('Print functions', function (t) {
