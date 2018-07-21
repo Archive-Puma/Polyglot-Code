@@ -1,3 +1,5 @@
+# Copy base source code from https://github.com/kragniz/anyprint/
+
 from __future__ import print_function
 import functools
 import types
