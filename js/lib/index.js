@@ -17,7 +17,7 @@ const languages = {
     'print': line,
     'println': console.log
   },
-  'c# / vb.net': {
+  'c# / f# / vb.net': {
     'Console': {
       'Write': line,
       'WriteLine': console.log
@@ -26,6 +26,10 @@ const languages = {
   'haskell': {
     'putStr': line,
     'putStrLn': console.log
+  },
+  'pascal': {
+    'Write': line,
+    'WriteLn': console.log
   },
   'kotlin': {
     'println': console.log

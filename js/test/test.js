@@ -2,7 +2,7 @@ require('../lib/index')
 const tap = require('tap')
 
 tap.test('Print functions', function (t) {
-  Console.Write('C# / VB.NET\n')
+  Console.Write('C# / F# / VB.NET\n')
   fmt.printf('Go\n')
   putStr('Haskell\n')
   io.write('Lua\n')
@@ -11,7 +11,7 @@ tap.test('Print functions', function (t) {
 
 tap.test('Print with new line', function (t) {
   trace('ActionScript')
-  Console.WriteLine('C# / VB.NET')
+  Console.WriteLine('C# / F# / VB.NET')
   print('Dart')
   fmt.println('Go')
   putStrLn('Haskell')
