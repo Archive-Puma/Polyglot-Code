@@ -17,7 +17,7 @@ const languages = {
     'print': line,
     'println': console.log
   },
-  'vb.net': {
+  'c# / vb.net': {
     'Console': {
       'Write': line,
       'WriteLine': console.log
