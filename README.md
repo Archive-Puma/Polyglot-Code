@@ -35,6 +35,19 @@ python3 test/test.py
 ----
 Polyglot does not require anything!
 
+:inbox_tray: Download
+----
+Download **Polyglot** using [npm](https://www.npmjs.com/package/polyglot-code):
+```sh
+npm install polyglot-code
+```
+
+Download **Polyglot** using [pip](https://pypi.org/project/polyglot-code/) (depending on your version):
+```sh
+pip install polyglot-code
+pip2 install polyglot-code
+pip3 install polyglot-code
+```
 
 :runner: Usage
 ----
