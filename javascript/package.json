@@ -1,8 +1,9 @@
 {
   "name": "polyglot-code",
   "version": "1.0.0",
-  "description": "Write console logs in any programming language",
-  "main": "lib/index.js",
+  "author": "Kike Fontan <kikefontanlorenzo@gmail.com> (https://github.com/CosasDePuma/)",
+  "description": "Write console logs in 'any' programming language",
+  "main": "lib/polyglot.js",
   "scripts": {
     "test": "tap test/*.js"
   },
@@ -11,13 +12,13 @@
     "url": "git+https://github.com/cosasdepuma/polyglot-code.git"
   },
   "keywords": [
-    "polyglot",
-    "anyprint",
+    "log",
+    "debug",
     "console",
-    "log"
+    "anyprint",
+    "polyglot"
   ],
-  "author": "CosasDePuma",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/cosasdepuma/polyglot-code/issues"
   },
