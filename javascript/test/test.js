@@ -15,7 +15,6 @@ tap.test('Print functions', function (t) {
 
 tap.test('Print with new line', function (t) {
   trace('ActionScript')
-  Ada.Text_IO.Put_Line('Ada')
   WriteF('AmigaE')
   Response.Write('ASP')
   putschar('B')
