@@ -1,3 +1,5 @@
 python/**/*.pyc
 python/**/__pycache__
+python/**/dist
+python/**/*.egg-info
 javascript/node_modules
